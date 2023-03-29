@@ -170,6 +170,7 @@ body {
 
 .nav_ul {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .nav_orange {
@@ -178,6 +179,7 @@ body {
     font-weight: 700;
     margin: 0 30px 0 0;
     text-decoration: none;
+    display: inline-block;
 }
 
 .nav_black {
@@ -326,4 +328,112 @@ h1 {
 
 .ml-3 {
     margin-left: 16px;
+}
+
+.background-pale-green {
+    background-color: #e6f3e6;
+}
+
+.home-story-list {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+.home-story-list-item {
+    margin-right: 30px;
+    margin-left: 0;
+    max-width: 140px;
+    font-size: 13px;
+    line-height: 1.5;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.icon-story {
+    width: 56px;
+    height: 56px;
+    background-size: 56px 56px;
+}
+
+.icon-story-01 {
+    background-image: url("images/icon1.svg");
+}
+
+.icon-story-02 {
+    background-image: url("images/icon2.svg");
+}
+
+.icon-story-03 {
+    background-image: url("images/icon3.svg");
+}
+
+.icon-text {
+    margin-bottom: 8px;
+    margin-top: 16px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.icon-descript {
+    font-size: 13px;
+    line-height: 1.5;
+    width: 145px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.cards-wrap {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.background-gray {
+    background-color: #F8F9FA;
+}
+
+.home-main-section {
+    padding: 60px 0;
+}
+
+.home-main-section .home-hot-content {
+    width: 1024px;
+    margin: 60px auto 120px auto;
+}
+
+.cards-wrap {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.cards-wrap .card-top, .cards-wrap .card {
+    width: calc(25% - 44px);
+    margin-right: 44px;
+    margin-bottom: 56px;
+}
+
+.cards-wrap .card-top .card-desc .card-title, .cards-wrap .card .card-desc .card-title {
+    font-size: 16px;
+    letter-spacing: -0.02px;
+    color: #212529;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    margin-bottom: 4px;
+    line-height: 1.5;
+    font-weight: normal;
+}
+
+.cards-wrap .card-top .card-desc .card-counts, .cards-wrap .card .card-desc .card-counts {
+    color: #868e96;
+    font-size: 13px;
 }
